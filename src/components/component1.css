@@ -1,0 +1,58 @@
+.component1-container {
+  flex: 0 0 auto;
+  width: 280px;
+  height: 1008px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #b173a3;
+}
+.component1-text {
+  height: var(--dl-size-size-medium);
+  align-self: stretch;
+  text-align: center;
+  background-color: #b167a0;
+}
+.component1-text1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4;
+  letter-spacing: 2px;
+}
+.component1-text2 {
+  color: var(--dl-color-theme-neutral-dark);
+  line-height: 4;
+  letter-spacing: 2px;
+}
+.component1-text3 {
+  line-height: 2;
+}
+.component1-text4 {
+  top: 113px;
+  left: -3px;
+  width: 208px;
+  height: 134px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: center;
+}
+.component1-text5 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4;
+  letter-spacing: 1px;
+}
+.component1-text6 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4;
+  letter-spacing: 1px;
+}
+.component1-text7 {
+  line-height: 2;
+}

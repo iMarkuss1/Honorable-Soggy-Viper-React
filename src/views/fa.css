@@ -1,0 +1,390 @@
+.fa-container {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.fa-container01 {
+  width: 280px;
+  height: 998px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #b173a3;
+}
+.fa-text {
+  height: 111px;
+  align-self: stretch;
+  text-align: center;
+  background-color: rgb(177, 103, 160);
+}
+.fa-text01 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4;
+  letter-spacing: 2px;
+}
+.fa-text02 {
+  color: var(--dl-color-theme-neutral-dark);
+  line-height: 4;
+  letter-spacing: 2px;
+}
+.fa-text03 {
+  line-height: 2;
+}
+.fa-container02 {
+  width: 100%;
+  height: 121px;
+  display: flex;
+  align-items: flex-start;
+}
+.fa-text04 {
+  top: 124px;
+  left: -18px;
+  width: 208px;
+  height: 84px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: center;
+}
+.fa-text05 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4;
+  letter-spacing: 1px;
+}
+.fa-text06 {
+  color: var(--dl-color-theme-neutral-dark);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4;
+  letter-spacing: 1px;
+}
+.fa-text07 {
+  line-height: 2;
+}
+.fa-container03 {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: flex-start;
+}
+.fa-navlink {
+  color: rgb(255, 255, 255);
+  width: 283px;
+  height: 46px;
+  text-align: left;
+  border-width: 0px;
+  padding-left: 5px;
+  padding-right: 172px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.fa-button {
+  color: rgb(255, 255, 255);
+  width: 283px;
+  height: 46px;
+  text-align: left;
+  border-width: 0px;
+  padding-left: 5px;
+  padding-right: 172px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.fa-navlink1 {
+  text-decoration: none;
+}
+.fa-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 243px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.fa-text10 {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.fa-icon {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.fa-dropdown-arrow {
+  transition: 0.3s;
+}
+.fa-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  list-style-position: inside;
+}
+.fa-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #b173a3;
+}
+.fa-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.fa-navlink2 {
+  color: #ffffff;
+  width: 191px;
+  cursor: pointer;
+  height: 26px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.fa-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.fa-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.fa-navlink3 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.fa-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.fa-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.fa-navlink4 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.fa-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-dropdown-toggle4 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.fa-dropdown-toggle4:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.fa-navlink5 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.fa-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.fa-button1 {
+  color: rgb(255, 255, 255);
+  width: 283px;
+  height: 45px;
+  text-align: left;
+  border-width: 0px;
+  padding-left: 5px;
+  padding-right: 155px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.fa-navlink6 {
+  text-decoration: none;
+}
+.fa-container04 {
+  width: 37px;
+  height: 996px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 0px;
+  flex-direction: column;
+}
+.fa-container05 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container06 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container07 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container08 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container09 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container10 {
+  flex: 0 0 auto;
+  width: 1174px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fa-container11 {
+  width: 916px;
+  height: 156px;
+  display: flex;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: dashed;
+  border-width: 0px;
+}
+.fa-text15 {
+  font-family: "Merriweather";
+}
+.fa-text16 {
+  color: rgb(121, 121, 121);
+  font-family: "Merriweather";
+}
+.fa-text27 {
+  font-style: normal;
+  font-family: "Merriweather";
+  font-weight: 900;
+}
